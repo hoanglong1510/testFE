@@ -1,0 +1,265 @@
+body {
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    width: 1918px;
+    height: 935px;
+}
+
+#sidebar {
+    margin: 0;
+    padding: 0;
+    width: 150px;
+    background-color: #191718;
+    position: absolute;
+    height: 935px;
+}
+
+#sidebar a {
+    display: block;
+    color: #AAAAAA;
+    padding-left: 16px;
+    padding-top: 14px;
+    padding-bottom: 11px;
+    text-decoration: none;
+
+    border-bottom: 1px solid #5C5C5C;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+#sidebar a.active {
+    background-color: #191718;
+    color: #FFFFFF;
+}
+
+#sidebar a:hover:not(.active) {
+    background-color: #5C5C5C;
+    color: white;
+}
+
+#content {
+    width: 1768px;
+    height: 935px;
+    background-color: #FFFFFF;
+    float: right;   
+    bottom: 0;
+}
+
+#content .logoncc{
+    margin-top: 20px;
+    width: 310px;
+    height: 122px;
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+#content .grup1{
+    margin: 30px 129px 0px 129px;
+    background-color: #EFEFEF;
+    width: 1510px;
+    height: 210px;
+}
+
+#content .grup1 h3{
+    position: absolute;
+    margin-top: 38px;
+    margin-left: 634px;
+    width: 241px;
+    height: 21px;
+    
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+}
+
+#content .grup1 p{
+    margin: 77px 269px 38px 269px;
+    position: absolute;
+    width: 972px;
+    height: 95px;
+
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+}
+
+#content .grup2{
+    position: absolute;
+    margin: 40px 0px 182px 129px;
+    width: 470px;
+    height: 252px;
+    float: left;
+}
+
+#content .grup2 h1{
+    position: absolute;
+    width: 470px;
+    height: 28px;
+    padding: 0;
+    margin: 0;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #000000;
+}
+
+#content .icon{
+    position: absolute;
+    display: block;
+    width: 128px;
+    height: 128px;
+    margin: 46px 16px 6px 0px;
+}
+
+#content .nd1{
+    position: absolute;
+    width: 326px;
+    height: 134px;
+    margin: 46px 0px 72px 144px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #000000;
+
+}
+
+#content .nd2{
+    position: absolute;
+    width: 470px;
+    height: 72px;
+    margin-top: 180px;
+    margin-bottom: 0;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #000000;
+
+}
+
+
+#content .grup3{
+    position: absolute;
+    margin: 40px 50px 182px 649px;
+    width: 470px;
+    height: 252px;
+}
+
+#content .grup3 h1{
+    position: absolute;
+    width: 470px;
+    height: 28px;
+    padding: 0;
+    margin: 0;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #000000;
+}
+
+
+#content .grup4{
+    position: absolute;
+    margin: 40px 129px 182px 1169px;
+    width: 470px;
+    height: 252px;    
+}
+
+#content .grup4 h1{
+    position: absolute;
+    width: 470px;
+    height: 28px;
+    padding: 0;
+    margin: 0;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #000000;
+}
+
+
+#footer {
+    position: absolute;
+    width: 1768px;
+    height: 79px;
+    bottom: 0;
+    left: 150px;
+
+    float: right;
+    border-top: 1px solid #DEDEDE;
+}
+
+#footer p{
+    position: absolute;
+    width: 125px;
+    height: 19px;
+    margin: 30px 1516px 30px 129px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #3E3E3E;
+
+}
+
+/* 
+@media screen and (max-width: 700px) {
+    .sidebar {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+
+    .sidebar a {
+        float: left;
+    }
+
+    div.content {
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .sidebar a {
+        text-align: center;
+        float: none;
+    }
+} */
